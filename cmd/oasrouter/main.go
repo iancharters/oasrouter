@@ -4,7 +4,6 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/iancharters/oasrouter/oasutil"
 )
 
 func main() {
@@ -14,5 +13,5 @@ func main() {
 }
 
 func TestHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte(oasutil.TestFunc()))
+	w.Write([]byte("Test func"))
 }

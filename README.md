@@ -19,3 +19,21 @@
       1. On error
          1. Build a slice containing validation errors
          2. Provide a hook to allow the consumer to log and alert.
+
+## Stretch Goals
+
+1. SDK Generation
+
+## Regenerating Structs from Open API spec
+
+First, make sure you have oapi-codegen installed:
+
+```zsh
+go install github.com/deepmap/oapi-codegen/cmd/oapi-codegen
+```
+
+Then run:
+
+```zsh
+go generate ./...
+```
