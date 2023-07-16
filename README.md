@@ -2,10 +2,10 @@
 
 ## Goals
 
-1. Generate models from spec.
-2. Validate OpenAPI spec on service start
-   1. Parsable
-   2. Valid example data
+1. ~~Generate models from spec.~~
+2. ~~Validate OpenAPI spec on service start~~
+   1. ~~Parsable~~
+   2. ~~Valid example data~~
 3. Validate request
    1. On error
       1. Build a slice containing validation errors
