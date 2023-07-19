@@ -4,3 +4,4 @@ generate:
   gorilla-server: true
   models: true
   embedded-spec: true
+  client: true
